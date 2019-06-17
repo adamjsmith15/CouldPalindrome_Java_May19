@@ -19,7 +19,7 @@ public class CouldPalindrome {
 				counter++;
 			}
 		}
-		if(string.length() % 2 == 0 && counter == 0 || (string.length() % 2 == 1 && counter > 1)) {
+		if(string.length() % 2 == 0 && counter == 0 || (string.length() % 2 == 1 && counter >= 1)) {
 			return true;
 		}else {
 			return false;
